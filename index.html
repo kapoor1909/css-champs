@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>CSS World Championship</title>
+</head>
+
+<body>
+    
+    <!-- Scroll to top -->
+    <a href="javascript:" id="return-to-top"><i class="fas fa-angle-up"></i></a>
+
+
+    <!-- Hero Section Starts -->
+
+    <div class="hero-section">
+
+        <!-- Nav bar starts -->
+        <div class="nav">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./resources/images/materializecss.svg" alt="" class="logoimg">
+                </a>
+            </div>
+
+            <div class="links">
+                <a href="#tracks" class="nav-link">Tracks</a>
+                <a href="#prizes" class="nav-link">Prizes</a>
+                <a href="#oppurtunities" class="nav-link">Opportunities</a>
+                <a href="./pages/team.html" class="nav-link">Team</a>
+                <a href="./pages/contact.html"><button type="submit" class="border-button">Contact Us</button></a>
+            </div>
+        </div>
+        <div class="mobile-navbar" id="navbar">
+            <div class="logo noshow">
+                <a href="index.html"><img src="./resources/images/materializecss.svg" alt="" class="logoimg"></a>
+                <button class="hamburger" onclick="mobileopen()"><i class="ri-menu-line"></i></button>
+                <button class="hamburger-close noshow" onclick="mobileclose()"><i class="ri-close-fill"></i></button>
+            </div>
+
+            <ul class="links noshow">
+                <li><a href="#tracks" class="nav-link" onclick="mobileclose()">Tracks</a></li>
+                <li><a href="#prizes" class="nav-link" onclick="mobileclose()">Prizes</a></li>
+                <li><a href="#oppurtunities" class="nav-link" onclick="mobileclose()">Opportunities</a></li>
+                <li><a href="./pages/team.html" class="nav-link" onclick="mobileclose()">Team</a></li>
+                <li><a href="./pages/contact.html"><button type="submit" class="border-button" onclick="mobileclose()">Contact Us</button></a></li>
+                <ul>
+        </div>
+        <!-- Nav bar ends -->
+
+        <div class="hero-content">
+            <h1 class="hero-main-heading">CSS World<br>Championship</h1>
+            <p class="poweredby">
+                Powered by 
+                <img src="./resources/images/materializecss.svg" alt="" class="company_logo" />
+            </p>
+        </div>
+
+        <!-- Countdown timer starts -->
+        <p class="countdown-heading">Launching Online March 18th, 2022</p>
+        <div class="countdown" id="countdown">
+            <div class="countdown-block">
+            <span class="days time-elem">
+                <span class="top">00</span>
+                <span class="top-back">
+                <span>00</span>
+                </span>
+                <span class="bottom">00</span>
+                <span class="bottom-back">
+                <span>00</span>
+                </span>
+            </span>
+            <span class="title">Days</span>
+            </div>
+    
+            <div class="countdown-block">
+            <span class="hours time-elem">
+                <span class="top">00</span>
+                <span class="top-back">
+                <span>00</span>
+                </span>
+                <span class="bottom">00</span>
+                <span class="bottom-back">
+                <span>00</span>
+                </span>
+            </span>
+            <span class="title">Hours</span>
+            </div>
+    
+            <div class="countdown-block">
+            <span class="minutes time-elem">
+                <span class="top">00</span>
+                <span class="top-back">
+                <span>00</span>
+                </span>
+                <span class="bottom">00</span>
+                <span class="bottom-back">
+                <span>00</span>
+                </span>
+            </span>
+            <span class="title">Minutes</span>
+            </div>
+    
+            <div class="countdown-block">
+            <span class="seconds time-elem">
+                <span class="top">00</span>
+                <span class="top-back">
+                <span>00</span>
+                </span>
+                <span class="bottom">00</span>
+                <span class="bottom-back">
+                <span>00</span>
+                </span>
+            </span>
+            <span class="title">Seconds</span>
+            </div>
+        </div>
+
+        <!-- Countdown timer ends -->
+    </div>
+
+    <!-- Hero Section Ends -->
+
+    <!-- Track section starts -->
+    <div class="events" id="tracks">
+        <div class="events-img">
+            <img src="./resources/images/bulb.png" alt="" srcset="">
+        </div>
+        <div class="headlines">
+            <p class="pre-pre-heading-events">Do you have what it takes to</p>
+            <h1 class="pre-heading-events">Become The Next</h1>
+            <h1 class="events-main-heading">CSS World Champion</h1>
+            <p class="pre-pre-heading-events">
+              Styling, Relay, Marathon or Art Attack and show us what you’ve got
+              in team and solo coding events!
+            </p>
+        </div>
+        
+       <!-- Event Details Section starts -->
+        <div class="event-details">
+           <div class="about-events">
+             <div class="about-event event1">
+                 <div class="abe">
+                  <h4 class="event-head">Styling</h4>
+                  <p class="event-text">
+                    Design UI/UX using Figma to showcase your creativity and make websites interesting
+                  </p>
+                </div>
+            </div>
+            <div class="about-event event2">
+              <div class="abe">
+                  <h4 class="event-head">Relay</h4>
+              <p class="event-text">
+                Contribute your strongest skills to the dapp and pass it on to
+                the other contender
+              </p>
+            </div>
+            </div>
+          <div class="about-event event3">
+              <div class="abe">
+             <h4 class="event-head">Marathon</h4>
+             <p class="event-text">
+                The teams battle to complete the marathon by building a
+                meaningful website!
+             </p>
+            </div>
+           </div>
+               <div class="about-event event4">
+            <div class="abe">
+                <h4 class="event-head">Art Attack 
+                </h4>
+                <p class="event-text">
+                 The teams compete for creating a mind-blowing Web design project and launching it.
+                </p>
+            </div>
+            </div>
+         </div>
+    </div>
+    </div>
+    <!-- Track Section ends -->
+
+    <!-- prize section starts -->
+    <div class="prize-details" id="prizes">
+        <h1 class="prize-main-heading">What's In There For Me?</h1>
+        <div class="circle-container">
+          <div class="circle">
+            <img src="./resources/images/learn.png" alt="" class="icon" />
+            <h3 class="circle-heading">Learn</h3>
+            <div class="underline"></div>
+            <p class="circle-content">
+              Learning sessions, spaces, live sessions to prepare you for the
+              event
+            </p>
+          </div>
+          <div class="circle">
+            <img src="./resources/images/cash-prize.png" alt="" class="icon" />
+            <h3 class="circle-heading">Cash Prize</h3>
+            <div class="underline"></div>
+            <p class="circle-content">
+              There’s a prize pool of $75,000 for the winners
+            </p>
+          </div>
+          <div class="circle" id="nft">
+            <img src="./resources/images/certificate.png" alt="" class="icon"/>
+            <h3 class="circle-heading">Recognition</h3>
+            <div class="underline"></div>
+            <p class="circle-content">Special recognitions for all categories</p>
+          </div>
+          <div class="circle">
+            <img src="./resources/images/trophy.png" alt="" class="icon" />
+            <h3 class="circle-heading">Brag all you want</h3>
+            <div class="underline"></div>
+            <p class="circle-content">
+              Bragging rights as the next world champion!!
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- prize section ends -->
+
+    <!-- oppurtunities section starts -->
+    <div class="prizes" id="oppurtunities">
+        <div class="prizes-img">
+          <img src="./resources/images/girl-holding-tablet.png" alt="" srcset="" />
+        </div>
+        <div class=" prizes-content">
+          <h1 class="prizes-main-heading">It's not over yet...</h1>
+          <p class="prizes-subheading">
+            After the championship, you'll get to have
+          </p>
+          <ul>
+            <li><span>Internship Oppurtunities</span></li>
+            <li><span>Meeting New People</span></li>
+            <li><span>Mentoring oppurtunities</span></li>
+          </ul>
+        </div>
+      </div>
+    
+    <!-- oppurtunities section ends -->
+
+    <!-- more details starts -->
+    <div class="more-details">
+        <h1 class="more-main-heading">More details soon...</h1>
+        <p class="more-subheading">Follow us on Twitter and stay in the know</p>
+    
+        <button class="follow-us">
+          <i class="ri-twitter-fill"></i>Follow Us
+        </button>
+      </div>
+    <!-- more details ends-->
+
+    <!-- footer starts -->
+    <footer>
+        <!-- <div class="social-icons">
+          <i class="ri-instagram-line"></i>
+          <i class="ri-twitter-fill"></i>
+          <i class="ri-linkedin-box-fill"></i>
+        </div> -->
+        <p class="madeby">Designed by <a href="">Nandini | Ateev</a></p>
+      </footer>
+    <!-- footer ends -->
+
+    
+    <script src="./js/script.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script>
+        // ===== Scroll to Top ==== 
+        $(window).scroll(function () {
+            if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+                $('#return-to-top').fadeIn(200);    // Fade in the arrow
+            } else {
+                $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+            }
+        });
+        $('#return-to-top').click(function () {      // When arrow is clicked
+            $('body,html').animate({
+                scrollTop: 0                       // Scroll to top of body
+            }, 500);
+        });
+
+        function mobileopen() {
+            $('.hamburger').addClass('noshow');
+            $('.hamburger-close').removeClass('noshow');
+            $('.mobile-navbar').addClass('fullheight');
+            $('.mobile-navbar').addClass('color');
+            $('ul').removeClass('noshow');
+            $('ul').addClass('show');
+        }
+        function mobileclose() {
+            $('.hamburger').removeClass('noshow');
+            $('.hamburger-close').addClass('noshow');
+            $('ul').removeClass('show');
+            $('ul').addClass('noshow');
+            $('.mobile-navbar').removeClass('fullheight');
+            $('.mobile-navbar').removeClass('color');
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
