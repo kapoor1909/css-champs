@@ -181,8 +181,10 @@ button {
 .hero-contact {
     display: flex;
     justify-content: center;
+    background: linear-gradient(90deg,
+            rgba(30, 14, 65, 1) 0%,
+            rgba(48, 48, 132, 1) 100%);
     text-align: center;
-    background-image: url('../resources/images/nft-BG.png');
     height: 100vh;
     align-items: center;
 }
